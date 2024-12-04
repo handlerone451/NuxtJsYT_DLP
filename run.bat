@@ -6,4 +6,4 @@ start powershell.exe -NoExit -Command "npm run start"
 timeout /t 5 >nul
 
 :: Buka tab baru di Windows Terminal dan jalankan perintah python
-start wt -w 0 nt -d ./server powershell.exe -NoExit -Command "python .\youtubeDownloader.py"
+start wt -w 0 nt -d ./server powershell.exe -NoExit -Command "python youtubeDownloader.py"
