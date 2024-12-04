@@ -1,42 +1,24 @@
-# Nuxt 3 Minimal Starter
+# Python Dependencies
+- Python 3.10.6
+## Core Requirements
+- Flask==3.1.0
+- Flask-Cors==5.0.0
+- Flask-SocketIO==5.4.1
+- yt-dlp==2024.8.6
+- python-socketio==5.11.4
+- ffmpeg-python==0.2.0
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Node js
+- node-v20.17.0
 
-## Setup
+## System Requirements
+- FFmpeg must be installed on your system
+  - Windows: 'requirements.bat'
+  - Linux: `sudo apt install ffmpeg`
+  - macOS: `brew install ffmpeg`
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Additional Requirements
+- AIMP (Optional, for Windows audio playback)
+  - Download from https://www.aimp.ru/
+  - make sure install on C:\Program Files\AIMP
+## Installation
