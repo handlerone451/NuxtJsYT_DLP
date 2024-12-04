@@ -1,5 +1,3 @@
-winget install Gyan.FFmpeg
-pip install -r requirements.txt
 @echo off
 
 rem Install npm packages
