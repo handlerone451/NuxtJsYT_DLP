@@ -6,7 +6,7 @@ interface VideoDetails {
 
 export function useYoutubeApi() {
   const toast = useToast();
-  const API_KEY = 'AIzaSyC3cu1_rVVJqcRfsPLzwW_nDVlRaZBQJNo'; // Replace with your actual API key
+  const API_KEY = ''; // Replace with your actual API key
   const BASE_URL = 'https://www.googleapis.com/youtube/v3';
 
   const extractVideoId = (url: string): string | null => {
